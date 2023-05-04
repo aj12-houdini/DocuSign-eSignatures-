@@ -1,0 +1,54 @@
+<%- include("partials/header") -%>
+
+  <body>
+
+    <div class="form-container">
+    <h2>Send Envelope </h2>
+    <p>Fill Below Details:</p>
+
+    <form action="callback" method="POST">
+      <div class="mb-3">
+        <label for="exampleInputEmail1" class="form-label">Email address</label>
+        <input
+          type="email"
+          class="form-control"
+          id="exampleInputEmail1"
+          name="email"
+          aria-describedby="emailHelp"
+        />
+        <div id="emailHelp" class="form-text">
+          We'll never share your email with anyone else.
+        </div>
+      </div>
+      <div class="mb-3">
+        <label for="exampleInputPassword1" class="form-label">Name of Recepient</label>
+        <input
+          type="text"
+          class="form-control"
+          name="nameR"
+          id="exampleInputPassword1"
+        />
+      </div>
+      <div class="mb-3">
+        <label for="exampleInputPassword1" class="form-label">Role of Recepient</label>
+        <input
+          type="text"
+          class="form-control"
+          name="role"
+          id="exampleInputPassword1"
+        />
+      </div>
+      <div class="mb-3">
+        <label for="exampleInputPassword1" class="form-label">Email Subject</label>
+        <input
+          type="text"
+          class="form-control"
+          name="emailSubject"
+          id="exampleInputPassword1"
+        />
+      </div>
+      <button type="submit" class="btn btn-dark btn-md">Submit</button>
+    </form>
+</div>
+  </body>
+</html>

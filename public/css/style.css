@@ -1,0 +1,23 @@
+body {
+    background-color: #e8ecef;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .centered {
+    padding-top: 200px;
+    text-align: center;
+  }
+  
+  .secret-text {
+    text-align: center;
+    font-size: 2rem;
+    color: #fff;
+    background-color: #000;
+  }
+
+  .form-container{
+    padding: 5%;
+  }
+  
